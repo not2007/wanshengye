@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>决战万圣夜</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#all{
+				/*width: 1980px;
+				height: 1080px;*/
+				width: 100vw;
+				height: 100vh;
+				background-image: url(img/background.png);
+				background-size: cover;
+				background-attachment: fixed;   
+				 background-repeat:no-repeat;   
+				 background-position:center;
+
+				/*background-image: linear-gradient(to bottom right, rgb(81,104,234), rgb(185,74,73));*/
+			}
+			.logo{
+				position: absolute;
+				left:20%;
+				top: 3%;
+			}
+			.overview{
+				position: absolute;
+				left: 20%;
+				top: 224px;
+			}
+			.text{
+				position: absolute;
+				right: 25%;
+				top: 245.6px;
+			}
+			.download{
+				position: absolute;
+				right: 24.5%;
+				top:569.6px;
+			}
+			@media only screen and (max-width: 1405px) {
+				.overview {
+					left: 10%;
+				}
+				.text{
+					right: 15%;
+				}
+				.download{
+					right: 12%;
+				}
+			}
+			@media only screen and (max-width: 1057px) {
+				.overview {
+					position: relative;
+					left: 50%;
+					transform: translateX(-50%);
+					margin-right: 300px;
+					top: 150px;
+				}
+				.text{
+					position: relative;
+					left: 50%;
+					transform: translateX(-50%);
+					top: 0px;
+					margin-top: 200px;
+					margin-right: 600px;
+				}
+				.download{
+					position: relative;
+					left: 50%;
+					transform: translateX(-50%);
+					top: 0;
+					margin-top: 50px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="all">
+			<img src="https://res.zhuagewawa.com/app/1503462023/wsy_logo.png" class="logo"/>
+			<img src="https://res.zhuagewawa.com/app/1503462023/wsy_image.png" class="overview"/>
+			<img src="https://res.zhuagewawa.com/app/1503462023/wsy_text.png" class="text"/>
+			<a href="https://itunes.apple.com/app/id1503462023">
+				<img src="https://res.zhuagewawa.com/app/1503462023/wsy_Download.png" class="download"/>
+			</a>
+		</div>
+	</body>
+</html>
